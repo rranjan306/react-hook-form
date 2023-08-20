@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import DefaultValues from './components/DefaultValues';
+import GetAndSetValue from './components/GetAndSetValue';
+import HandleErrors from './components/HandleErrors';
+import JoiIntegrationSchema from './components/JoiIntegrationSchema';
+import NumbericAndDate from './components/NumbericAndDate';
+import YouTubeForm from './components/YouTubeForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <YouTubeForm /> */}
+     {/* <DefaultValues /> */}
+     {/* <NumbericAndDate /> */}
+     {/* <GetAndSetValue /> */}
+     {/* <HandleErrors /> */}
+     <JoiIntegrationSchema />
     </div>
   );
 }
